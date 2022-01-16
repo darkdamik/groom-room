@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>не Document</title>
+</head>
+<body>
+    <div class="header">
+        <div class="header-main">
+            <div class="logo">
+        <h1 class="header_logo">GROOMING</h1>
+        <p class="header__logo-two">Service for dogs and cats</p>
+    </div>
+        <div class="menu">
+            <ul class="header-menu">
+                <li class=""><a href="index.html" class="active">ГЛАВНАЯ</a></li>
+                <li class=""><a href="">ВХОД</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+    <div class="section">
+        <div class="container">
+            <div class="left-container">
+                <h1 class="left-container_title">Профессиональная укладка <br>для ваших домашних<br>питомцев</h1>
+            </div>
+            <div class="right-container">
+                <div class="application">
+                    <form action="" class="application-form" method="post">
+                        <h1 class="application-form_title">Создайте заявку</h1>
+                        <input type="text" placeholder="Текстовое поле" id="input" class="application-form_input-one">
+                        <input type="text" placeholder="Текстовое поле" id="input" class="application-form_input-two">
+                        <button class="application-form_button">Записаться</button>
+                    </form>
+                </div> 
+              <script>
+                    let input = document.querySelector(".application-form_button");
+
+                    input.onclick = (e) => {
+                        e.preventDefault();
+                    }
+                </script>
+            </div>
+        </div>
+    </div>
+    <div class="section-job">
+      <div class="section-title">
+          <h1 class="section-title_title-job">Наши работы</h1>    
+      </div>
+      <div class="section-title-job-cards">
+          <div class="section-title-job-cards_cards">
+              <div class="section-dog">
+            <object type="image/svg+xml" data="dog.svg" ></object>
+              </div>
+              <h1 class="section-dog_p">
+              Dog #1</h1>
+          </div>
+          <div class="section-title-job-cards_cards">
+            <div class="section-dog">
+            <object type="image/svg+xml" data="dog.svg" ></object>
+        </div>
+        <h1 class="section-dog_p">
+            Dog #1</h1>
+        </div>
+        <div class="section-title-job-cards_cards">
+            <div class="section-dog">
+            <object type="image/svg+xml" data="dog.svg" ></object></div>
+            <h1 class="section-dog_p">
+                Dog #1</h1>
+        </div>
+        <div class="section-title-job-cards_cards">
+            <div class="section-dog">
+            <object type="image/svg+xml" data="dog.svg" ></object></div>
+            <h1 class="section-dog_p">
+                Dog #1</h1>
+        </div>
+        <div class="section-title-job-cards_cards">
+            <div class="section-dog">
+            <object type="image/svg+xml" data="dog.svg" ></object></div>
+            <h1 class="section-dog_p">
+                Dog #1</h1>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+        <p class="paragraph">groom-salon.com 2000-2999</p>
+    </div>
+</body>
+</html>
